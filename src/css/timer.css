@@ -1,0 +1,63 @@
+.timer-container {
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 36px 156px;
+}
+
+.timer-container input {
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 8px 15px;
+  width: 240px;
+  margin-right: 8px;
+  border: 1px solid rgba(128, 128, 128, 1);
+  border-radius: 4px;
+}
+
+.timer-container input:hover {
+  border-color: rgba(0, 0, 0, 1);
+}
+
+.timer-container input:active {
+  border-color: rgba(78, 117, 255, 1);
+}
+
+.timer-container input:disabled {
+  color: rgba(128, 128, 128, 1);
+}
+
+.timer-container button {
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  background-color: rgba(78, 117, 255, 1);
+  color: white;
+}
+
+.timer-container button:hover {
+  background-color: rgba(108, 140, 255, 1);
+}
+
+.timer-container button:disabled {
+  background-color: rgba(207, 207, 207, 1);
+  color: rgba(152, 152, 152, 1);
+}
+
+.timer {
+  padding-top: 32px;
+  justify-content: center;
+  display: flex;
+  gap: 24px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+.value {
+  font-size: 40px;
+  line-height: 1.2;
+}
