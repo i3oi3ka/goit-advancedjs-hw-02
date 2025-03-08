@@ -1,0 +1,52 @@
+.snackbar {
+  padding: 36px 156px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 0 auto;
+  max-width: 360px;
+}
+
+.form label {
+  text-align: left;
+}
+
+.form fieldset {
+  border-radius: 4px;
+  width: 360px;
+}
+
+.form > label > input {
+  display: block;
+  padding: 8px 16px;
+  margin-top: 8px;
+  width: 100%;
+  font-size: 16px;
+  line-height: 1.5;
+  border-radius: 4px;
+  border: 1px solid;
+  border-color: rgba(128, 128, 128, 1);
+}
+
+.form fieldset {
+  text-align: left;
+  display: flex;
+  justify-content: space-around;
+}
+
+.form button {
+  background-color: rgba(78, 117, 255, 1);
+  color: white;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+}
+
+.form button:hover {
+  background-color: rgba(108, 140, 255, 1);
+}
